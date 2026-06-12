@@ -1,0 +1,49 @@
+# SECRETS - CRITICAL!
+.env
+*.env
+.env.local
+secrets.json
+credentials.py
+*.key
+*.pem
+config_private.py
+
+# VIRTUAL ENVIRONMENTS
+**/election_env/
+**/venv/
+**/.venv/
+**/env/
+**/Lib/site-packages/
+
+# LARGE FILES (>100MB GitHub limit)
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+bertopic_model_*
+data/processed/*.model
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
